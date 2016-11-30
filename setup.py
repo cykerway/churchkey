@@ -106,7 +106,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'churchkey=churchkey:main',
+            'churchkey=churchkey.__main__:main',
         ],
     },
 )

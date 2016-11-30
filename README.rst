@@ -18,11 +18,23 @@ Alternative HTTP tunneling programs include Corkscrew_ and Proxytunnel_.
 Install
 ================================================
 
-``churchkey`` contains a single file written in Python 3. Therefore the install
-is merely a file download.
+1.  Build a source package:
 
-Please note that ``churchkey`` doesn't support Python 2 officially. However,
-there shouldn't be major difficulty porting it to Python 2.
+    ::
+
+        python setup.py sdist
+
+    This will generate a file named ``churchkey-x.y.z.tar.gz``.
+
+2.  Install using `pip`:
+
+    ::
+
+        pip install churchkey-x.y.z.tar.gz
+
+Please note that ``churchkey`` is developed using Python 3 and doesn't support
+Python 2 officially. However, there shouldn't be major difficulty porting it to
+Python 2.
 
 Usage
 ================================================
