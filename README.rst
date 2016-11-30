@@ -62,8 +62,7 @@ Digest_.
 License
 ================================================
 
-The source code is licensed under the `GNU General Public License v3.0
-<GPLv3_>`_.
+The source code is licensed under the `GNU General Public License v3.0`_.
 
 Copyright (C) 2016 Cyker Way
 
@@ -86,4 +85,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 .. _Proxytunnel: http://proxytunnel.sourceforge.net/
 .. _Basic: https://en.wikipedia.org/wiki/Basic_access_authentication
 .. _Digest: https://en.wikipedia.org/wiki/Digest_access_authentication
-.. _GPLv3: https://www.gnu.org/licenses/gpl-3.0.txt
+.. _GNU General Public License v3.0: https://www.gnu.org/licenses/gpl-3.0.txt
