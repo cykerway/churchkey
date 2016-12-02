@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 '''
-churchkey: A program tunneling SSH through HTTPS proxies with authentication.
+churchkey: A program tunneling SSH through HTTP proxies with authentication.
 
 Copyright (C) 2016 Cyker Way
 

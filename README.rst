@@ -8,8 +8,9 @@ Intro
 ================================================
 
 ``churchkey`` tunnels SSH sessions through HTTP proxies, which means the user
-logs into a remote server via an HTTP proxy instead of performing direct access.
-It does so by using the ``CONNECT`` request method defined in the HTTP protocol.
+logs into a remote server via an HTTP proxy instead of accessing directly.  It
+does so by using the ``CONNECT`` request method defined in the HTTP protocol and
+only works with HTTP proxies supporting this feature.
 
 The technical details are described in `RFC 2817`_.
 
@@ -67,7 +68,7 @@ The usage of ``churchkey`` should be very familiar to ``corkscrew`` users:
 Authentication Methods
 ================================================
 
-``churchkey`` currenctly supports two HTTP authentication methods: Basic_ and
+``churchkey`` currently supports two HTTP authentication methods: Basic_ and
 Digest_.
 
 

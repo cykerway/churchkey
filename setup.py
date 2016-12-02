@@ -26,7 +26,7 @@ setup(
     version='1.0.0',
 
     description=\
-    'A program tunneling SSH through HTTPS proxies with authentication.',
+    'A program tunneling SSH through HTTP proxies with authentication.',
     long_description=long_description,
 
     # The project's main homepage.
