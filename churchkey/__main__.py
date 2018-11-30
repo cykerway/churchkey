@@ -7,6 +7,7 @@ a tool tunneling ssh over http proxy;
 from os.path import expanduser
 from os.path import isfile
 import argparse
+import argparse_better
 import base64
 import hashlib
 import http.client
@@ -17,6 +18,9 @@ import select
 import socket
 import sys
 import traceback
+
+##  program name;
+prog='churchkey'
 
 ##  global config;
 class conf: pass
@@ -45,7 +49,19 @@ def parse_args():
     parse command line arguments;
     '''
 
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        prog=prog,
+        usage='{} [options] {{cmd}}'.format(prog),
+        description='a tool tunneling ssh over http proxy;',
+        formatter_class=argparse_better.HelpFormatter,
+        add_help=False,
+    )
+
+    parser.add_argument(
+        '-h', '--help',
+        action='help',
+        help='display help message;',
+    )
 
     parser.add_argument(
         'proxy_host',

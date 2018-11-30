@@ -172,8 +172,7 @@ setup(
     ##  will be installed by pip when this project is installed;
     ##
     install_requires=[
-#        'numpy',
-#        'scipy',
+        'argparse-better',
     ],
 
     ##  extra package dependencies;
