@@ -96,9 +96,10 @@ def parse_args():
     )
 
     parser.add_argument(
-        '--buf-size',
+        '-b', '--buf-size',
         type=int,
         default=4096,
+        metavar='{size}',
         help='data buffer size;',
     )
 
