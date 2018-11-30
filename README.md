@@ -6,7 +6,7 @@ churchkey tunnels ssh sessions through http proxy, so that users can log into
 remote server via http proxy if direct access is not working; churchkey uses
 http *connect* method and only works with http proxies supporting this method;
 
-`churchkey` supports two http authentication methods: [basic] and [digest];
+churchkey supports two http authentication methods: [basic] and [digest];
 
 technical details are described in [rfc 2817];
 
