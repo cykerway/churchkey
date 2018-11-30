@@ -65,7 +65,7 @@ def parse_args():
     parser.add_argument(
         'proxy_host',
         default='127.0.0,1',
-        metavar='{proxy_host}',
+        metavar='proxy_host',
         help='proxy host;',
     )
 
@@ -73,14 +73,14 @@ def parse_args():
         'proxy_port',
         type=int,
         default=3128,
-        metavar='{proxy_port}',
+        metavar='proxy_port',
         help='proxy port;',
     )
 
     parser.add_argument(
         'dest_host',
         default='127.0.0.1',
-        metavar='{dest_host}',
+        metavar='dest_host',
         help='dest host;',
     )
 
@@ -88,14 +88,14 @@ def parse_args():
         'dest_port',
         type=int,
         default=22,
-        metavar='{dest_port}',
+        metavar='dest_port',
         help='dest port;',
     )
 
     parser.add_argument(
         'auth_file',
         default=expanduser('~/.ssh/proxyauth'),
-        metavar='{auth_file}',
+        metavar='auth_file',
         help='auth file;',
     )
 
@@ -103,7 +103,7 @@ def parse_args():
         '-b', '--buf-size',
         type=int,
         default=4096,
-        metavar='{size}',
+        metavar='size',
         help='data buffer size;',
     )
 
