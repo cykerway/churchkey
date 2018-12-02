@@ -7,7 +7,7 @@ a tool tunneling ssh over http proxy;
 from os.path import expanduser
 from os.path import isfile
 import argparse
-import argparse_better
+import argparse_ext
 import base64
 import hashlib
 import http.client
@@ -52,7 +52,7 @@ def parse_args():
     parser = argparse.ArgumentParser(
         prog=prog,
         description='a tool tunneling ssh over http proxy;',
-        formatter_class=argparse_better.HelpFormatter,
+        formatter_class=argparse_ext.HelpFormatter,
         add_help=False,
     )
 

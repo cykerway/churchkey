@@ -172,7 +172,7 @@ setup(
     ##  will be installed by pip when this project is installed;
     ##
     install_requires=[
-        'argparse-better',
+        'argparse-ext',
     ],
 
     ##  extra package dependencies;
