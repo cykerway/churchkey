@@ -22,7 +22,7 @@ install via pip:
 
 1.  create a file `~/.ssh/proxyauth` with proxy username and password:
 
-        <username>:<password>
+        {username}:{password}
 
 2.  edit `~/.ssh/config` as follows:
 
